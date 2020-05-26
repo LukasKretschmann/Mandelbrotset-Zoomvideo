@@ -13,7 +13,7 @@ There are multiple variables you can change to modify your video:
         figsize=(fig_size, fig_size), 
         dpi = 150,
         tight_layout=True
-    )``` just change dpi if you want a higher resolution but you also have to change ```rpoints``` and ```ipoints``` right here: ```image = mandelbrot(rmin_, rmax_, 1000, imin_, imax_, 1000)```  -```  writer = animation.FFMpegWriter(
+    )``` just change dpi if you want a higher resolution but you also have to change ```rpoints``` and ```ipoints``` right here: ```image = mandelbrot(rmin_, rmax_, 1000, imin_, imax_, 1000)```    -```  writer = animation.FFMpegWriter(
         fps=2,
         metadata=dict(artist='Lukas Kretschmann'),
         bitrate = -1, 
