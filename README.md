@@ -7,7 +7,7 @@ There are multiple variables you can change to modify your video:
 -```MAX_FRAMES``` number of frames for the video  
 -```MAX_ZOOM``` max zoom-factor for the video  
 -```r_center, i_center``` these are the coordinates where the video will zoom into  
-  My coordinates were: ```r_center, i_center = 0.340037926617566, -0.051446751669```
+  My coordinates were: ```r_center, i_center = 0.340037926617566, -0.051446751669```  
 -```fig_size``` size of the plot for the figure  
 -```fig = plt.figure(
         figsize=(fig_size, fig_size), 
