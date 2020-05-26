@@ -3,6 +3,8 @@ I wrote this code to animate the Mandelbrot-Set. I already developed a code to c
 
 To run the algorithm to create one of these amazing Mandelbrot-Set Zoom-Videos just run the following python file: run.py
 
+'''test'''
+
 ![Screenshot](mandel2.png)
 ![Screenshot](mandel1.png)
 
