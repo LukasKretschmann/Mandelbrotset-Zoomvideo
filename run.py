@@ -23,13 +23,13 @@ COLOR_MAP = clr.LinearSegmentedColormap.from_list(
     N=2048,
 )
 
-MAX_FRAMES = 2
+MAX_FRAMES = 250
 #
 # MAX_ZOOM for these coordinates (0.357535415497125, 0.070571561552046)
 # 1.7592187E13 can go higher but it is possible that it zooms into a non
 # borderregion region but 1.7592187E13 is already a huge zoom-factor
 #
-MAX_ZOOM = 100000
+MAX_ZOOM = 50000
 RMIN, RMAX, IMIN, IMAX = -2.5, 1.5, -2, 2
 OUTPUT_FILENAME = "OUTPUT.mp4"
 IMAGES_PATH = Path("data")
@@ -138,7 +138,7 @@ def main():
     )
     Writer = animation.writers['ffmpeg']
     writer = animation.FFMpegWriter(
-        fps=2,
+        fps=20,
         metadata=dict(artist='Lukas Kretschmann'),
         bitrate = -1, 
         extra_args=['-pix_fmt', 'yuv420p'] 
