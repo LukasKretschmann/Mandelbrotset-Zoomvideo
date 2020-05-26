@@ -19,7 +19,9 @@ There are multiple variables you can change to modify your video:
         metadata=dict(artist='Lukas Kretschmann'),
         bitrate = -1, 
         extra_args=['-pix_fmt', 'yuv420p'] 
-    )``` just increase fps to get more frames per second  
+    )``` just increase fps to get more frames per second     
+    
+The code will create an output file named ```OUTPUT.MP4``` and also an output folder, where every individual frame is saved.  
     
     
 And the whole code is available to dowload (run.py)
