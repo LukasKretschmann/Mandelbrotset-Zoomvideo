@@ -24,7 +24,8 @@ There are multiple variables you can change to modify your video:
 The code will create an output file named ```OUTPUT.MP4``` and also an output folder named ```data```, where every individual frame is saved.  
     
     
-And the whole code is available to dowload (```run.py```)
+And the whole code is available to dowload (```run.py```)  
+Here is a example for a video that I rendered. I had to convert it to a ```.gif``` and I had to shorten it a bit because the original Video file was way to big for GitHub (the original file was ~80MB and had 500 frames; took ~8 hours to compute):
 
 ![Vid_1](Vid_1.gif)
 
