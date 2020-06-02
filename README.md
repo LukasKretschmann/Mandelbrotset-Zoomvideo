@@ -26,7 +26,7 @@ The code will create an output file named ```OUTPUT.MP4``` and also an output fo
     
 And the whole code is available to dowload (```run.py```)
 
-
+![Vid_1](Vid_1.mp4)
 
 
 ![Screenshot](mandel2.png)
